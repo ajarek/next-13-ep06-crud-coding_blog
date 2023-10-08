@@ -1,6 +1,8 @@
+'use client'
 import React from 'react'
-
-const TopicList = () => {
+import { useRouter } from 'next/navigation'
+const TopicList = ({id}) => {
+  const router = useRouter()
   return (
     <div className='card w-full bg-base-200 shadow-xl flex-row items-center'>
      
@@ -10,7 +12,7 @@ const TopicList = () => {
       </div>
       <div className='card-actions pr-4 '>
         <button className='btn btn-error btn-xl text-xl'>🗑️</button>
-        <button className='btn btn-success btn-xl text-xl'>🖊️</button>
+        <button onClick={() => router.push(`/editTopic/${id}`)} className='btn btn-success btn-xl text-xl'>🖊️</button>
       </div>
     </div>
   )
