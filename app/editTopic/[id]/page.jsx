@@ -16,13 +16,13 @@ async function getData(id) {
 
 const EditTopic = async({params}) => {
   const data = await getData(params.id)
+  const {_id, title,description} =data
 
 
-
-  console.log(data);
+  console.log(title, description);
   return (
     <div>
-      <EditTopicForm/>
+      <EditTopicForm id={_id} title={title} description={description}/>
     </div>
   )
 }
