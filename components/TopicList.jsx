@@ -33,7 +33,7 @@ const TopicList = ({ id, title, text }) => {
         : data?.map((dt) => (
             <div
               key={dt._id}
-              className='card w-full bg-base-200 shadow-xl flex-row items-center'
+              className='card w-full bg-base-200 shadow-xl flex-row items-center max-sm:flex-col max-sm:pb-4 '
             >
               <div className='card-body'>
                 <h2 className='card-title '>{dt.title}</h2>
