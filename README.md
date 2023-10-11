@@ -1,3 +1,9 @@
+
+<img width="150" alt="Zrzut ekranu 2023-10-11 234404" src="https://github.com/ajarek/next-13-ep06-crud-coding_blog/assets/61388692/85f3846b-c32d-4ee8-86a3-31678fae15d3">
+<img width="150" alt="Zrzut ekranu 2023-10-11 234446" src="https://github.com/ajarek/next-13-ep06-crud-coding_blog/assets/61388692/755277ab-3cc8-48e9-b71b-4fafd3a99f53">
+<img width="150" alt="Zrzut ekranu 2023-10-11 234622" src="https://github.com/ajarek/next-13-ep06-crud-coding_blog/assets/61388692/123034e1-8147-4dbe-a2dd-95689e4d6ab9">
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
